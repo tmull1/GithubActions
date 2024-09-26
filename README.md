@@ -12,7 +12,8 @@ This project automates Continuous Integration (CI) and Continuous Deployment (CD
   5. Runs the Docker container locally.
 
 ### CI Workflow Screenshot:
-![CI Workflow](../path/to/CI%20Workflow.PNG)
+![CI Workflow]![CI Workflow](https://github.com/user-attachments/assets/0b35f6fe-18a7-4287-92cd-63dabd4b75c2)
+
 
 ## CD Workflow
 - After the CI steps successfully complete, the CD workflow pushes the latest Docker image to Docker Hub automatically.
