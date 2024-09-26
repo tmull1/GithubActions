@@ -1,4 +1,4 @@
-name: CI/CD Workflow with Docker
+name: hello
 
 on:
   push:
@@ -20,5 +20,6 @@ jobs:
         run: docker build -t hello .
 
       - name: Run Docker Container
-        run: docker run -d -p 8080:8080 your-docker-image-name
+        run: docker run -d -p 8080:8080 hello
+
 
